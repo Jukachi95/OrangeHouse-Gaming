@@ -9,7 +9,7 @@
 
 body{
     font-family: IBM Plex Sans;
-    padding: 30px;
+   
 }
 
 .header{
@@ -106,6 +106,21 @@ body{
     background-color: white;
 }
 
+.new-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #000;
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+    padding: 1.2rem 0.5rem;
+    transition: all 0.4s;
+}
+
+.new-btn:hover{
+    color: white;
+    background-color: #222
+}
 
 /* Section */
 
@@ -119,9 +134,28 @@ body{
     flex: 1;
 }
 
+#about-us .text-right{
+    background-color: rgb(134, 132, 132);
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#about-us .text-right i{
+    margin-bottom: 1.7rem;
+}
 
 
+/* Footer */
 
+#solutions-footer{
+    background-color: #000;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 2rem;
+    
+}
 
 /* .section > div{
     display: grid;

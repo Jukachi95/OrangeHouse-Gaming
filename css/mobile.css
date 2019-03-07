@@ -1,0 +1,10 @@
+.header .text-box .header-primary .header-primary-main,
+.header .text-box .header-primary .header-primary-sub
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7rem;
+}
+
+
+.
